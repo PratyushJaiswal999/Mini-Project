@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #222;
+    color: #fff;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+    color: white;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .portfolio,
+  .services,
+  .about,
+  .contact {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .portfolio-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .portfolio-gallery img {
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+  }
